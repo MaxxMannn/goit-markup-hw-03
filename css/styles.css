@@ -1,0 +1,343 @@
+body {
+background-color: #FFFFFF;
+color: #212121;
+font-style: normal;
+font-weight: 400;
+font-family: 'Roboto', 'Montserrat', 'Raleway', sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0;
+        margin: 0;
+}
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+/* h1,
+h2,
+h3,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+} */
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --white-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --secondary-back-color: #F5F5F5;
+}
+/* колір основного тексту #212121 */
+
+/* колір другорядного тексту #757575 */
+
+/* білий колір #FFFFFF */
+
+/* акцент #2196F3 */
+
+/* другорядний колір фону #F5F5F5 */
+
+
+
+/* Шапка */
+.logo-link{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-size: 26px;
+        line-height: 1.2;
+         color: #2196F3;
+}
+
+.logo-header {
+    font-family: 'Raleway';
+font-style: normal;
+font-size: 26px;
+line-height: 1.2;
+color: #000;
+}
+
+ a{
+    text-decoration: none;
+}
+
+.link-current {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #2196F3;
+}
+
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: var(--primary-text-color);
+}
+
+.link-adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+
+.container {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 1200px;
+    outline: 2px solid tomato;
+}
+
+/* Блок Герой */
+.hero {
+    margin: 0px;
+    background: #2F303A;
+    text-align: center;
+}
+.hero-description {
+      margin-top: 0px;
+      padding-top: 200px;
+      padding-bottom: 30px;
+      margin-bottom: 40px;  
+      background: #2F303A;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.hero-button {
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+/* < !-- Блок Списку --> */
+.section {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.section-tittle {
+    margin-top: 0;
+    margin-bottom: 10;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+    
+}
+
+.section-description {
+   
+    font-family: 'Roboto';
+font-style: normal;
+font-size: 14px;
+line-height: 1.2;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;  
+       }
+
+/* Блок з Фото */
+
+.foto .tittle {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+        font-size: 36px;
+        line-height: 1.2;
+}
+/* < !-- Команда --> */
+.team {
+    display: inline-block;
+    margin-top: 94px;
+    padding-bottom: 94px;
+    width: 1600px;
+height: 648px;
+left: 0px;
+top: 1446px;
+background: #F5F4FA;
+}
+
+.team-tittle {
+    padding-top: 94px;
+    padding-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+.team-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    
+        
+}
+
+    .team-description {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: #757575;
+        margin-bottom: 20px;
+    }
+
+/* Футер */
+.footer {
+    margin-top: 94px;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    color: #FFFFFF;
+    background: #2F303A;
+
+   }
+.adress {
+    margin-top: 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer-adress {
+    margin-top: 9px
+    font-family: 'Roboto';
+font-style: normal;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}   
+.logo-footer {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+color: #FFF;
+}
+/* Портфоліо Блок Нав */
+
+
+.section-nav-button {
+cursor: pointer;   
+background-color:  #F5F4FA;
+border-radius: 4px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+} 
+
+.section-nav-button:hover {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+
+/* Приклади Робіт */
+
+.section-example-tittle {
+     
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.2;
+          
+        
+    
+        color: #212121;
+}
+
+.section-example-text 
+
+{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+color: #757575;
+}
+
+
+
+
+.link:hover {
+color: var(--accent-color)
+}
+
+.link:focus {
+    color: var(--accent-color);
+}
+
+.link:active {
+    color: var(--accent-color)
+}
+
+.link-current:hover {
+    color:var(--accent-color)
+}
+
+.link-current:focus {
+    color: var(--accent-color);
+}
+
+.link-current:active {
+    color:var(--accent-color)
+}
