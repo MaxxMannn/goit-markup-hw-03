@@ -15,18 +15,19 @@ ul {
     margin: 0;
 }
 
-/* h1,
+h1,
 h2,
 h3,
 p,
 ul {
     margin-top: 0;
     margin-bottom: 0;
-} */
+}
 
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
+
     --white-color: #FFFFFF;
     --accent-color: #2196F3;
     --secondary-back-color: #F5F5F5;
@@ -42,8 +43,47 @@ ul {
 /* другорядний колір фону #F5F5F5 */
 
 
+/* Header */
+.header {
+width: 1600px;
+margin: 0 auto;
+}
+
+.container {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 1200px;
+    outline: 2px solid tomato;
+    margin: 0 auto;
+}
 
 /* Шапка */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 344px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+    gap: 94px
+}
+
+.header-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.header-adress {
+    display: flex;
+    gap: 50px;
+}
+
+
 .logo-link{
     font-family: 'Raleway';
         font-style: normal;
@@ -93,12 +133,7 @@ color: #000;
     color: #757575;
 }
 
-.container {
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 1200px;
-    outline: 2px solid tomato;
-}
+
 
 /* Блок Герой */
 .hero {
