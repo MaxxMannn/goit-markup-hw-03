@@ -55,7 +55,7 @@ padding-bottom: 25px;
     margin-left: 15px;
     margin-right: 15px;
     width: 1200px;
-    outline: 2px solid tomato;
+    
     
     
 }
@@ -158,6 +158,7 @@ color: #000;
     margin: 0px;
     background: #2F303A;
     text-align: center;
+    width: 1600px;
 }
 .hero-description {
    
@@ -165,7 +166,6 @@ color: #000;
     border-radius: nullpx;
     
           margin-top: 0px;
-          padding-top: 200px;
           padding-bottom: 30px;
           margin-bottom: 40px;  
           background: #2F303A;
@@ -361,6 +361,19 @@ color: #FFF;
 }
 /* Портфоліо Блок Нав */
 
+.section-nav {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.section-list {
+    display: flex;
+    justify-content:center;
+    padding-bottom: 56px;
+    padding-top: 75px;
+}
+
+
 
 .section-nav-button {
 cursor: pointer;   
@@ -385,6 +398,18 @@ color: #212121;
 
 
 /* Приклади Робіт */
+
+.section-example {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+}
+
+
+.example-items {
+    flex-basis: calc((100% - 60px)/ 3) ;
+}
 
 .section-example-tittle {
      
