@@ -143,10 +143,11 @@ color: #000;
 /* Блок Герой */
 .hero-container {
     display: flex;
-    flex-direction:column;
     align-items: center;
+    flex-direction:column;
     justify-content:center;
-    padding-bottom: 210px;
+    padding-bottom: 200px;
+    padding-top: 200px;
     
     
         
@@ -159,20 +160,24 @@ color: #000;
     text-align: center;
 }
 .hero-description {
-      margin-top: 0px;
-      padding-top: 200px;
-      padding-bottom: 30px;
-      margin-bottom: 40px;  
-      background: #2F303A;
-    color: #FFFFFF;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.4;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-text-align: center;
+   
+    width: 696px;
+    border-radius: nullpx;
+    
+          margin-top: 0px;
+          padding-top: 200px;
+          padding-bottom: 30px;
+          margin-bottom: 40px;  
+          background: #2F303A;
+        color: #FFFFFF;
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
 
 }
 
@@ -196,10 +201,25 @@ border-radius: 4px;
 }
 
 /* < !-- Блок Списку --> */
+
 .section {
+    margin: 0 auto;
     margin-top: 94px;
     margin-bottom: 94px;
+    width: 1600px;
+
+    
 }
+
+.section-list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
 .section-tittle {
     margin-top: 0;
     margin-bottom: 10;
@@ -228,6 +248,12 @@ color: #757575;
        }
 
 /* Блок з Фото */
+.foto {
+    margin: 0 auto;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    width: 1600px;
+}
 
 .foto .tittle {
     text-align: center;
@@ -236,16 +262,26 @@ color: #757575;
         font-size: 36px;
         line-height: 1.2;
 }
+
+.foto-item {
+    display: flex;
+    gap: 30px;
+}
 /* < !-- Команда --> */
 .team {
-    display: inline-block;
-    margin-top: 94px;
+       margin-top: 94px;
     padding-bottom: 94px;
     width: 1600px;
 height: 648px;
 left: 0px;
 top: 1446px;
 background: #F5F4FA;
+margin: 0 auto;
+}
+
+.team-items {
+    display: flex;
+    gap:30px;
 }
 
 .team-tittle {
@@ -293,6 +329,7 @@ background: #F5F4FA;
     top: 2094px;
     color: #FFFFFF;
     background: #2F303A;
+    margin: 0 auto;
 
    }
 .adress {
