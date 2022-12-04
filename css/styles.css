@@ -23,6 +23,10 @@ ul {
     margin-bottom: 0;
 }
 
+h3 {
+    margin-top: 0;
+}
+
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -147,11 +151,7 @@ a {
     align-items: center;
     flex-direction:column;
     justify-content:center;
-    padding-bottom: 200px;
-    padding-top: 200px;
-    
-    
-        
+            
 }
 
 
@@ -219,6 +219,10 @@ border-radius: 4px;
        
 }
 
+.sections-item {
+    width: 270px;
+}
+
 
 .section-tittle {
     margin-top: 0;
@@ -238,9 +242,9 @@ border-radius: 4px;
    
 font-size: 14px;
 line-height: 1.71;
-/* or 171% */
 letter-spacing: 0.03em;
-color: #757575;  
+color: #757575; 
+ 
 }
 
 /* Блок з Фото */
@@ -314,18 +318,20 @@ text-align: center;
         line-height: 1.2;
         letter-spacing: 0.03em;
         color: #757575;
-        margin-bottom: 20px;
+        
     }
 
 /* Футер */
 .footer {
     padding-bottom: 60px;
-    margin-top: 60px;
+    
     color: #FFFFFF;
     background: #2F303A;
     
 
    }
+
+
 .adress {
     margin-top: 20px;
     font-family: 'Roboto';
@@ -338,17 +344,23 @@ padding-bottom: 9px;
 }
 
 .footer-adress {
-
+    
+        margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);
-    padding-bottom: 9px
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     
-}   
+}  
+
+.footer-adress:hover {
+    background-color: var(--accent-color)
+}
+
+
 .logo-footer {
     font-family: 'Raleway';
 font-style: normal;
@@ -358,6 +370,7 @@ line-height: 1.2;
 color: #FFF;
 
 }
+
 /* Портфоліо Блок Нав */
 
 .section-nav {
@@ -369,7 +382,7 @@ color: #FFF;
 .section-items {
     display: flex;
     justify-content:center;
-    padding-bottom: 56px;
+    margin-bottom: 56px;
     gap: 8px;
 
 }
@@ -386,7 +399,7 @@ font-size: 16px;
 line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
-
+border-width: 0;
 color: #212121;
 } 
 
@@ -423,7 +436,7 @@ color: #212121;
      
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.2;
+        line-height: 2;
           
         
     
