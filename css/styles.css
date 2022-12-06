@@ -15,6 +15,10 @@ ul {
     margin: 0;
 }
 
+.list a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
 h1,
 h2,
 p,
@@ -345,7 +349,7 @@ padding-bottom: 9px;
 
 .footer-adress {
     
-        margin-top: 9px;
+    margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Roboto';
     font-style: normal;
@@ -353,11 +357,12 @@ padding-bottom: 9px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    width: max-content;
     
 }  
 
 .footer-adress:hover {
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
 }
 
 
